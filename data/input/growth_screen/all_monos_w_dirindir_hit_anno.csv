@@ -1,0 +1,63 @@
+condition,associated product,gene ontology,,AA_or_Nucl_biosynth_manual_anno,Hit
+"ADE5,7",adenine,purine nucleobase biosynthesis,,direct,1
+ARG1,arginine,arginine biosynthesis,,direct,1
+ARG2,arginine,arginine biosynthesis,,direct,1
+ECM29,proteasome,proteasome assembly,,none,1
+ERG4,ergosterol,ergosterol biosynthesis,,none,0
+HIS1,histidine,histidine biosynthesis,,direct,1
+HIS4,histidine,histidine biosynthesis,,direct,1
+HIS6,histidine,histidine biosynthesis,,direct,1
+HMF1,unknown,unknown,,unknown,0
+IBA57,protein maturation,iron-sulpher cluster,,indirect,1
+ISA1,protein maturation,iron-sulpher cluster,,indirect,0
+LYS1,lysine,lysine biosynthesis,,direct,0
+MET10,methionine/sulphate,sulphate assimilation,,direct,1
+MET13,methionine/sulphate,methionine biosynthesis,,direct,1
+MET7,methionine/sulphate,methionine biosynthesis,,direct,0
+MHF2,DNA damage response,DNA damage response,,none,1
+YBR209W,unknown,unknown,,unknown,0
+ORT1,arginine,ornithine transporter,,direct,1
+POS5,stress response,oxidative stress response,,none,0
+RPL27A,ribosome,cytoplasmic translation,,none,1
+TRP2,tryptophan,tryptophan biosynthesis,,direct,1
+TRP3,tryptophan,tryptophan biosynthesis,,direct,0
+URA1,uracil,pyrimidine nucleobase biosynthesis,,direct,1
+VPS65,unknown,unknown,,unknown,0
+ADE1,adenine,purine nucleobase biosynthesis,,direct,1
+ARG3,arginine,citruline biosynthesis,,direct,1
+ARO1,aromatic amino acids,chorismate biosynthesis,,direct,1
+ARO7,aromatic amino acids,tyrosine biosynthesis,,direct,1
+ILV1,isoleucine/valine,isoleucine biosynthesis,,direct,1
+IRC10,unknown,unknown,,unknown,1
+LAG1,ceramide,ceramide biosynthesis,,none,0
+LYS4,lysine,lysine biosynthesis,,direct,1
+LYS9,lysine,lysine biosynthesis,,direct,0
+MET3,methionine/sulphate,sulphate assimilation,,direct,1
+ADE2,adenine,purine nucleobase biosynthesis,,direct,0
+ADE6,adenine,purine nucleobase biosynthesis,,direct,1
+LYS2,lysine,lysine biosynthesis,,direct,0
+MET14,methionine/sulphate,sulphate assimilation,,direct,1
+RPS24B,ribosome,ribosome structure,,none,1
+TRP5,tryptophan,tryptophan biosynthesis,,direct,0
+ARG4,arginine,arginine biosynthesis,,direct,0
+"ARG5,6",arginine,arginine biosynthesis,,direct,0
+ARG8,arginine,arginine biosynthesis,,direct,1
+BUD16,vitamin B6,bud site selection,,none,0
+FCY22,cytosine,nucleobase transport,,direct,0
+PEX35,unknown,peroxisome associated,,none,0
+RSC2,DNA translocase activity,DNA translocase activity,,none,1
+TRP4,tryptophan,tryptophan biosynthesis,,direct,1
+HIS2,histidine,histidine biosynthesis,,direct,1
+LYS5,lysine,lysine biosynthesis,,direct,0
+MET1,methionine/siroheme,siroheme biosynthesis,,direct,1
+YHL005C,unknown,unknown,,unknown,0
+URA4,uracil,pyrimidine nucleobase biosynthesis,,direct,0
+ADE8,adenine,purine nucleobase biosynthesis,,direct,0
+ARO2,aromatic amino acids,chorismate biosynthesis,,direct,1
+LYS12,lysine,lysine biosynthesis,,direct,1
+YEA4,transmembrane transport,transmembrane transport,,indirect,1
+MET5,methionine/sulphate,sulphate assimilation,,direct,1
+APT1,adenine,purine nucleobase biosynthesis,,direct,0
+APL2,clathrin,golgi transport,,indirect,0
+PRP18,mRNA splicing,mRNA splicing,,none,0
+VPH2,V-ATPase assembly,vacuolar acidification,,none,1

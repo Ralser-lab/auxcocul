@@ -1,0 +1,34 @@
+"","AuxType","type","Frac"
+"1","adenine","Monocultures tested",0.0967741935483871
+"2","arginine","Monocultures tested",0.112903225806452
+"3","aromatic amino acids","Monocultures tested",0.0483870967741935
+"4","histidine","Monocultures tested",0.0645161290322581
+"5","isoleucine/valine","Monocultures tested",0.0161290322580645
+"6","lysine","Monocultures tested",0.0967741935483871
+"7","methionine/siroheme","Monocultures tested",0.0161290322580645
+"8","methionine/sulphate","Monocultures tested",0.0967741935483871
+"9","other","Monocultures tested",0.354838709677419
+"10","tryptophan","Monocultures tested",0.0645161290322581
+"11","uracil","Monocultures tested",0.032258064516129
+"12","adenine","Unique monocultures in hits",0.0833333333333333
+"13","arginine","Unique monocultures in hits",0.138888888888889
+"14","aromatic amino acids","Unique monocultures in hits",0.0833333333333333
+"15","histidine","Unique monocultures in hits",0.111111111111111
+"16","isoleucine/valine","Unique monocultures in hits",0.0277777777777778
+"17","lysine","Unique monocultures in hits",0.0555555555555556
+"18","methionine/siroheme","Unique monocultures in hits",0.0277777777777778
+"19","methionine/sulphate","Unique monocultures in hits",0.138888888888889
+"20","other","Unique monocultures in hits",0.25
+"21","tryptophan","Unique monocultures in hits",0.0555555555555556
+"22","uracil","Unique monocultures in hits",0.0277777777777778
+"23","adenine","Monoculture counts in hits",0.102040816326531
+"24","arginine","Monoculture counts in hits",0.112244897959184
+"25","aromatic amino acids","Monoculture counts in hits",0.0714285714285714
+"26","histidine","Monoculture counts in hits",0.122448979591837
+"27","isoleucine/valine","Monoculture counts in hits",0.0102040816326531
+"28","lysine","Monoculture counts in hits",0.0408163265306122
+"29","methionine/siroheme","Monoculture counts in hits",0.0306122448979592
+"30","methionine/sulphate","Monoculture counts in hits",0.173469387755102
+"31","other","Monoculture counts in hits",0.204081632653061
+"32","tryptophan","Monoculture counts in hits",0.112244897959184
+"33","uracil","Monoculture counts in hits",0.0204081632653061

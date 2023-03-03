@@ -1,0 +1,63 @@
+condition,associated product,gene ontology
+"ADE5,7",adenine,purine nucleobase biosynthesis
+ARG1,arginine,arginine biosynthesis
+ARG2,arginine,arginine biosynthesis
+ECM29,proteasome,proteasome assembly
+ERG4,ergosterol,ergosterol biosynthesis
+HIS1,histidine,histidine biosynthesis
+HIS4,histidine,histidine biosynthesis
+HIS6,histidine,histidine biosynthesis
+HMF1,unknown,unknown
+IBA57,protein maturation,iron-sulpher cluster
+ISA1,protein maturation,iron-sulpher cluster
+LYS1,lysine,lysine biosynthesis
+MET10,methionine/sulphate,sulphate assimilation
+MET13,methionine/sulphate,methionine biosynthesis
+MET7,methionine/sulphate,methionine biosynthesis
+MHF2,DNA damage response,DNA damage response
+YBR209W,unknown,unknown
+ORT1,arginine,ornithine transporter
+POS5,stress response,oxidative stress response
+RPL27A,ribosome,cytoplasmic translation
+TRP2,tryptophan,tryptophan biosynthesis
+TRP3,tryptophan,tryptophan biosynthesis
+URA1,uracil,pyrimidine nucleobase biosynthesis
+VPS65,unknown,unknown
+ADE1,adenine,purine nucleobase biosynthesis
+ARG3,arginine,citruline biosynthesis
+ARO1,aromatic amino acids,chorismate biosynthesis
+ARO7,aromatic amino acids,tyrosine biosynthesis
+ILV1,isoleucine/valine,isoleucine biosynthesis
+IRC10,unknown,unknown
+LAG1,ceramide,ceramide biosynthesis
+LYS4,lysine,lysine biosynthesis
+LYS9,lysine,lysine biosynthesis
+MET3,methionine/sulphate,sulphate assimilation
+ADE2,adenine,purine nucleobase biosynthesis
+ADE6,adenine,purine nucleobase biosynthesis
+LYS2,lysine,lysine biosynthesis
+MET14,methionine/sulphate,sulphate assimilation
+RPS24B,ribosome,ribosome structure
+TRP5,tryptophan,tryptophan biosynthesis
+ARG4,arginine,arginine biosynthesis
+"ARG5,6",arginine,arginine biosynthesis
+ARG8,arginine,arginine biosynthesis
+BUD16,vitamin B6,bud site selection
+FCY22,cytosine,nucleobase transport
+PEX35,unknown,peroxisome associated
+RSC2,DNA translocase activity,DNA translocase activity
+TRP4,tryptophan,tryptophan biosynthesis
+HIS2,histidine,histidine biosynthesis
+LYS5,lysine,lysine biosynthesis
+MET1,methionine/siroheme,siroheme biosynthesis
+YHL005C,unknown,unknown
+URA4,uracil,pyrimidine nucleobase biosynthesis
+ADE8,adenine,purine nucleobase biosynthesis
+ARO2,aromatic amino acids,chorismate biosynthesis
+LYS12,lysine,lysine biosynthesis
+YEA4,transmembrane transport,transmembrane transport
+MET5,methionine/sulphate,sulphate assimilation
+APT1,adenine,purine nucleobase biosynthesis
+APL2,clathrin,golgi transport
+PRP18,mRNA splicing,mRNA splicing
+VPH2,V-ATPase assembly,vacuolar acidification
