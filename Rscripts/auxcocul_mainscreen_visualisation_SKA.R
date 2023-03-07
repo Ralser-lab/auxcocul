@@ -554,7 +554,10 @@ ggplot()+
                y = Median_OD600_48hr,
                colour = cultype,
                fill = cultype),
-           alpha= 0.4, stat = "identity", size = 0.25)+
+           alpha= 0.4, 
+           stat = "identity", 
+           width = 0.6,
+           size = 0.25)+
   
   geom_errorbar( data = unique(order_bp_forbar[,c("condition","ord","Median_OD600_48hr","SE_OD600_48hr","cultype","Conditional_Group")]),
                  aes(x = reorder(paste(Conditional_Group,condition),ord),
