@@ -3,7 +3,7 @@ library(reshape2)
 library(tidyr)
 library(dplyr)
 library(tidyverse)
-
+library(xlsx)
 library(venn)
 library(ggplot2)
 library(ggrepel)
@@ -206,4 +206,10 @@ cultype_colkey <- c(monocul1= "#807dbaff",
                     monocul2 ="#bcbddcff",
                     cocul = "#6a51a3ff",
                     `WT`= "#74c476ff")
+
+
+prescreen_colkey <- c(unsuitable_aux_KO= "#EEC591",
+                       suitable_aux_KO = "#6a51a3ff",
+                      `prototroph`= "#74c476ff",
+                       blank = "gray")
 

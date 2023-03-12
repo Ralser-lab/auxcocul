@@ -1,0 +1,65 @@
+from,to
+adenine,"ADE5,7"
+adenine,ADE1
+adenine,ADE2
+adenine,ADE6
+adenine,ADE8
+adenine,APT1
+arginine,ARG1
+arginine,ARG2
+arginine,ARG3
+arginine,ARG4
+arginine,"ARG5,6"
+arginine,ARG8
+aromatic amino acids,ARO1
+aromatic amino acids,ARO7
+aromatic amino acids,ARO2
+ceramide,LAG1
+clathrin,APL2
+cytosine,FCY22
+DNA damage response,MHF2
+DNA translocase activity,RSC2
+ergosterol,ERG4
+histidine,HIS1
+histidine,HIS4
+histidine,HIS6
+histidine,HIS2
+isoleucine/valine,ILV1
+lysine,LYS1
+lysine,LYS2
+lysine,LYS4
+lysine,LYS9
+lysine,LYS5
+lysine,LYS12
+methionine/sulphate,MET10
+methionine/sulphate,MET13
+methionine/sulphate,MET3
+methionine/sulphate,MET7
+methionine/siroheme,MET1
+methionine/sulphate,MET14
+methionine/sulphate,MET5
+mRNA splicing,PRP18
+arginine,ORT1
+proteasome,ECM29
+protein maturation,IBA57
+protein maturation,ISA1
+ribosome,RPL27A
+ribosome,RPS24B
+ribosome,ZUO1
+stress response,POS5
+transmembrane transport,YEA4
+tryptophan,TRP2
+tryptophan,TRP3
+tryptophan,TRP5
+tryptophan,TRP4
+unknown,HMF1
+unknown,YBR209W
+unknown,VPS65
+unknown,IRC10
+tryptophan,YDR008C
+unknown,PEX35
+unknown,YHL005C
+uracil,URA1
+uracil,URA4
+V-ATPase assembly,VPH2
+vitamin B6,BUD16

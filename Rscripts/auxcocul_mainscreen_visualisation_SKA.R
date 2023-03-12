@@ -4,7 +4,7 @@
 
 proj_dir <- "/Users/aulakhs/Documents/Ralser Lab/Collaborations/Auxotroph co culture screen"
 
-inp_data_dir <- paste0(proj_dir,"/Data/input/growth_screen")
+inp_data_dir <- paste0(proj_dir,"/Data/input/main_growthscreen")
 
 ###############################################################
 ### Initialize paths, load functions and graphic parameters ###
@@ -91,6 +91,7 @@ stats <- read.csv("all_coculture_stats.csv",stringsAsFactors = F)%>%
         )%>%
         filter(A %in% monocul_incoculpassQC | B %in% monocul_incoculpassQC)
 
+write.csv(stats,paste0(output_data_dir,"/all_coculture_stats_post_QC_for_volcanoplot.csv"),row.names = F)
 ## Function of ORF
 
 orfcontext <- read.csv("monos_QCpassed_SGD_descriptions.csv",stringsAsFactors = F)%>%
@@ -732,3 +733,4 @@ setwd(main_fig_dir)
 pdf("direct_indirect_biosynthesis_function_pie_chart.pdf",width=15,height=7)
 monopie+monohitpie+cocul_direct+cocul_indirect+plot_layout(ncol=4)
 dev.off()
+

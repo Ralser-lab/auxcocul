@@ -19,7 +19,7 @@ setwd(inp_data_dir)
 
 df_alldata <- vector()
 
-for(i in 1:2){
+for(i in 1:3){
   
   df_OD = read_excel(paste0("cocul_validation_ODbodrod_passage_",i,".xlsx"),sheet = 1)%>%
     reshape2::melt(id.vars="Time",variable.name = "Culture",value.name ="OD600")
@@ -73,7 +73,6 @@ ggplot(filter(df_time_Transform,!Culture %in% c("met14∆-his2∆") & Passage !=
   theme_auxcocul()
 dev.off()
 
-
 ## Plot negative controls
 
 negcntrl <- negcntrl %>%
@@ -96,7 +95,7 @@ dev.off()
 
 ## Plot positive controls
 
-poscntrl <- filter(df_time_Transform,Culture == "RB")
+poscntrl <- filter(df_time_Transform,Culture == "RB" & Time < 95)
 
 pdf("poscontrols_stability_validated_cocultures.pdf",width=8,height=3)
 ggplot(poscntrl)+
@@ -139,7 +138,7 @@ df_time_Transform_smry <- df_time_Transform%>%
 
 
 pdf("stability_validated_cocultures_summariseddata.pdf",width = 10,height=12)
-ggplot(filter(df_time_Transform_smry,!Culture %in% c("met14∆-his2∆")))+
+ggplot(filter(df_time_Transform_smry,!Culture %in% c("met14∆-his2∆") & Time < 95))+
   geom_point(aes(x = Time,
                  y = Mean_ROD),
              alpha = 0.3,
@@ -175,7 +174,45 @@ ggplot(filter(df_time_Transform_smry,!Culture %in% c("met14∆-his2∆")))+
 
 dev.off()
 
+## trp2-trp4 3 passages 
 
+
+pdf(paste0(sup_fig_dir,"/stability_validated_cocultures_summariseddata_trp2trp4_3passages.pdf"),width = 4,height=4)
+ggplot(filter(df_time_Transform_smry,Culture == "trp2∆-trp4∆"))+
+  geom_point(aes(x = Time,
+                 y = Mean_ROD),
+             alpha = 0.3,
+             size = 1,
+             colour = "#94221F")+
+  geom_line(aes(x = Time,
+                y = Mean_ROD),
+            colour = "#94221F",
+            alpha = 0.7,
+            size = 1)+
+  geom_point(aes(x = Time,
+                 y = Mean_BOD),
+             alpha = 0.3,
+             size = 1,
+             colour = "#155289")+
+  geom_line(aes(x = Time,
+                y = Mean_BOD),
+            colour = "#155289",
+            alpha = 0.7,
+            size = 1)+
+  geom_point(aes(x= Time,
+                 y= Mean_OD600),
+             size = 1,
+             colour = "gray", 
+             alpha = 0.3)+
+  geom_line(aes( x = Time,
+                 y = Mean_OD600),
+            colour = "gray",
+            alpha = 0.7,
+            size = 1)+
+  facet_wrap(c("Culture","Ratio"),ncol=3,scales = "free")+
+  theme_auxcocul()
+
+dev.off()
 ########################################
 ### Plot fraction at end poitn P1 P2 ###
 ########################################
@@ -223,4 +260,6 @@ ggplot(df_time_Transform_endpoint)+
   theme_auxcocul()
 dev.off()
 
+
+write.csv(df_time_Transform_smry,paste0(output_data_dir,"/stabilitycheck_validated_cocultures_alldata_summarised.csv"),row.names = T)
 
