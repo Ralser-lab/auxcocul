@@ -539,6 +539,8 @@ order_bp_forpoint <- merge(forBP_monoco,order_bp_forbar[,c("Conditional_Group","
                            by = c("condition","Conditional_Group"))
                       
 
+write.csv(filter(unique(order_bp_forpoint[,c("condition","ord","OD600..48h.","Median_OD600_48hr","SE_OD600_48hr","cultype","Conditional_Group")]),OD600..48h. > 0.05),
+                 paste0(output_data_dir,"/top20_cocultures_OD600_48hr.csv"))
 setwd(main_fig_dir)
 
 pdf("top20_cocultures_bar_plot.pdf",width=10,height=6)

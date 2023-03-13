@@ -207,6 +207,16 @@ cultype_colkey <- c(monocul1= "#807dbaff",
                     cocul = "#6a51a3ff",
                     `WT`= "#74c476ff")
 
+cultype_libremad_colkey <- c(`monocul1 library`= "#807dbaff",
+                             `monocul2 library` ="#807dbaff",
+                             `cocul library` = "#6a51a3ff",
+                             `WT`= "#74c476ff",
+                             
+                             `monocul1 remade` = "#EEC591",
+                             `monocul2 remade` = "#EEC591",
+                             `cocul remade` ="#E3A869")
+
+
 
 prescreen_colkey <- c(unsuitable_aux_KO= "#EEC591",
                        suitable_aux_KO = "#6a51a3ff",
