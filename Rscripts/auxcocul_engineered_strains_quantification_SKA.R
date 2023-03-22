@@ -160,12 +160,12 @@ ggplot()+
 dev.off()
 
 
-pdf(paste0(sup_fig_dir,"/wt_strains_48h_only_glu_bala_msa_quantification_raw.pdf"),width=4,height=9)
+pdf(paste0(sup_fig_dir,"/wt_strains_24h_only_glu_bala_msa_quantification_raw.pdf"),width=4,height=9)
 
 ggplot()+
   facet_grid(parameter~Timepoint,scales="free")+
   # barplot
-  geom_bar(data = unique(filter(ES_data, Timepoint=="48h" &
+  geom_bar(data = unique(filter(ES_data, Timepoint=="24h" &
                                   Sample %in% c("RLAs879","BY-BY 10:1","BY-BY 1:1","BY-BY 1:10"))[,c("Sample","Mean","col_fac","parameter","Timepoint")] ),
            aes(x=Sample,
                y=Mean,
@@ -175,7 +175,7 @@ ggplot()+
            alpha = 0.4,
            size=0.1)+
   # pointplot
-  geom_point(data = filter(ES_data,Timepoint=="48h" &
+  geom_point(data = filter(ES_data,Timepoint=="24h" &
                              Sample %in% c("RLAs879","BY-BY 10:1","BY-BY 1:1","BY-BY 1:10")),
              aes(x=Sample,
                  y=value,
@@ -183,7 +183,7 @@ ggplot()+
              position = position_jitterdodge(),
              size = 2)+
   # errorbars
-  geom_errorbar(data = unique(filter(ES_data, Timepoint=="48h" &
+  geom_errorbar(data = unique(filter(ES_data, Timepoint=="24h" &
                                        Sample %in% c("RLAs879","BY-BY 10:1","BY-BY 1:1","BY-BY 1:10"))[,c("Sample","Mean","SE","col_fac","parameter","Timepoint")] ),
                 aes(x=Sample,
                     y=Mean,
